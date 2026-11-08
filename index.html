@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezoan Iqbal | Senior Web Developer</title>
+    <meta name="description" content="Portfolio of Rezoan Iqbal - Senior Web Developer, Designer, and Programmer based in Cumilla, Bangladesh.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="profile.png">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Elements -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-badge">RI</span>
+                <span class="logo-text">Rezoan<span>.</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+                    <i class="fa-solid fa-moon theme-icon-dark"></i>
+                    <i class="fa-solid fa-sun theme-icon-light"></i>
+                </button>
+                <a href="#contact" class="btn btn-sm btn-primary nav-cta">Let's Talk</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle mobile menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="pulse-dot"></span> Available for New Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Rezoan Iqbal</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        I am a <span class="typing-text" id="typing-text">Senior Web Developer</span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate about crafting fast, modern, and high-impact web experiences. 
+                        Blending creative visual design, illustration, and clean code to build digital products that leave a lasting impression.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get In Touch</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-outline">
+                            <span>Explore Work</span>
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-contact-quick">
+                        <a href="mailto:rezoaniqbalrohan@gmail.com" class="quick-link">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>rezoaniqbalrohan@gmail.com</span>
+                        </a>
+                        <span class="divider">•</span>
+                        <a href="tel:+8801316357404" class="quick-link">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+880 1316-357404</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="card-visual-wrapper">
+                        <div class="profile-card">
+                            <div class="avatar-ring">
+                                <div class="avatar-inner">
+                                    <img src="profile.png" alt="Rezoan Iqbal - Senior Web Developer" class="profile-img">
+                                </div>
+                            </div>
+                            <h3 class="profile-name">Rezoan Iqbal</h3>
+                            <p class="profile-role">Senior Web Developer</p>
+                            
+                            <div class="status-tags">
+                                <span class="tag"><i class="fa-solid fa-code"></i> Web Dev</span>
+                                <span class="tag"><i class="fa-solid fa-pen-nib"></i> Design</span>
+                                <span class="tag"><i class="fa-solid fa-terminal"></i> Programming</span>
+                            </div>
+
+                            <div class="floating-badge badge-top">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <div>
+                                    <strong>Clean Code</strong>
+                                    <small>Best Practices</small>
+                                </div>
+                            </div>
+
+                            <div class="floating-badge badge-bottom">
+                                <i class="fa-solid fa-palette"></i>
+                                <div>
+                                    <strong>Creative Art</strong>
+                                    <small>Graphics & UI</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Know Who I Am</h2>
+                    <p class="section-subtitle">Dedicated developer with an eye for design and a relentless drive to solve real problems.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio-card">
+                        <h3>Passionate Developer & Creative Thinker</h3>
+                        <p>
+                            I am <strong>Rezoan Iqbal</strong>, a 21-year-old Senior Web Developer based in <strong>Homna, Cumilla, Bangladesh</strong>. 
+                            My primary interest lies in the ever-evolving world of <strong>programming and technology</strong>.
+                        </p>
+                        <p>
+                            With an extensive skill set encompassing modern web design, front-end & back-end development, graphic artwork, and digital illustration, 
+                            I bridge the gap between creative visual concepts and robust, production-ready code.
+                        </p>
+
+                        <div class="highlight-boxes">
+                            <div class="highlight-box">
+                                <span class="highlight-number">4+</span>
+                                <span class="highlight-label">Years of Coding & Design</span>
+                            </div>
+                            <div class="highlight-box">
+                                <span class="highlight-number">30+</span>
+                                <span class="highlight-label">Projects Completed</span>
+                            </div>
+                            <div class="highlight-box">
+                                <span class="highlight-number">100%</span>
+                                <span class="highlight-label">Dedication & Quality</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-info-card">
+                        <div class="about-header-flex">
+                            <img src="profile.png" alt="Rezoan Iqbal" class="about-avatar-sm">
+                            <div>
+                                <h3 class="card-heading no-bar">Personal Details</h3>
+                                <p class="about-role-sub">Homna, Cumilla, Bangladesh</p>
+                            </div>
+                        </div>
+                        <ul class="personal-info-list">
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-user"></i></div>
+                                <div class="info-details">
+                                    <span class="label">Full Name</span>
+                                    <span class="value">Rezoan Iqbal</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-briefcase"></i></div>
+                                <div class="info-details">
+                                    <span class="label">Profession</span>
+                                    <span class="value">Senior Web Developer</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-calendar"></i></div>
+                                <div class="info-details">
+                                    <span class="label">Age</span>
+                                    <span class="value">21 Years Old</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-venus-mars"></i></div>
+                                <div class="info-details">
+                                    <span class="label">Gender</span>
+                                    <span class="value">Male</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-heart"></i></div>
+                                <div class="info-details">
+                                    <span class="label">Primary Interest</span>
+                                    <span class="value">Programming & Software Architecture</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-details">
+                                    <span class="label">Address</span>
+                                    <span class="value">Homna 3546, Cumilla, Bangladesh</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Core Competencies</span>
+                    <h2 class="section-title">My Skills & Expertise</h2>
+                    <p class="section-subtitle">A balanced fusion of technical engineering, web architecture, and visual aesthetics.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Web Development -->
+                    <div class="skill-card featured-skill">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                            <div>
+                                <h3>Web Development</h3>
+                                <span class="skill-level">Primary Domain</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">
+                            Building responsive, performant, and cross-browser web applications utilizing HTML5, modern CSS3, vanilla JavaScript, and robust developer workflows.
+                        </p>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Proficiency</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive UI</span>
+                            <span>APIs</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Design -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                            <div>
+                                <h3>Web Design</h3>
+                                <span class="skill-level">UI / UX Design</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">
+                            Crafting clean, intuitive, and conversion-focused layouts with high visual clarity, micro-interactions, and human-centered design principles.
+                        </p>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Proficiency</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Wireframing</span>
+                            <span>UI/UX</span>
+                            <span>Design Systems</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+
+                    <!-- Graphics -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
+                            <div>
+                                <h3>Graphics</h3>
+                                <span class="skill-level">Visual Arts & Media</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">
+                            Creating compelling brand assets, digital media graphics, marketing visuals, banners, and typography that elevate brand storytelling.
+                        </p>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Proficiency</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Branding</span>
+                            <span>Visual Assets</span>
+                            <span>Typography</span>
+                            <span>Color Theory</span>
+                        </div>
+                    </div>
+
+                    <!-- Illustration -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fa-solid fa-paintbrush"></i></div>
+                            <div>
+                                <h3>Illustration</h3>
+                                <span class="skill-level">Creative Artwork</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">
+                            Custom vector illustrations, iconography sets, editorial art, and stylized illustrations to give websites a memorable, unique character.
+                        </p>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Proficiency</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Vector Art</span>
+                            <span>Custom Icons</span>
+                            <span>Character & Scene Art</span>
+                        </div>
+                    </div>
+
+                    <!-- Basic Computing -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fa-solid fa-desktop"></i></div>
+                            <div>
+                                <h3>Basic Computing</h3>
+                                <span class="skill-level">Foundations & Systems</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">
+                            Strong computer literacy, operating systems, hardware & software configuration, version control tooling, and day-to-day digital productivity.
+                        </p>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Proficiency</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span>OS Management</span>
+                            <span>Troubleshooting</span>
+                            <span>Git Basics</span>
+                            <span>Productivity Tools</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming Interest -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <div class="skill-icon"><i class="fa-solid fa-terminal"></i></div>
+                            <div>
+                                <h3>Programming Interest</h3>
+                                <span class="skill-level">Core Passion</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">
+                            Algorithmic problem-solving, structured programming logic, modern web APIs, clean architecture, and keeping up with cutting-edge tech trends.
+                        </p>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Passion Level</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span>Logic & Algorithms</span>
+                            <span>Clean Architecture</span>
+                            <span>Web Tech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects / Portfolio Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Featured Work</span>
+                    <h2 class="section-title">Recent Project Highlights</h2>
+                    <p class="section-subtitle">Showcasing real-world capabilities in web development, interactive design, and creative visuals.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-thumb project-thumb-1">
+                            <div class="project-badge">Web Development</div>
+                            <div class="project-overlay-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Modern E-Commerce Storefront</h3>
+                            <p>Fast, mobile-optimized online shopping experience featuring dynamic cart management, sleek product filtering, and fluid transitions.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS Grid</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="link-btn"><i class="fa-solid fa-eye"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-thumb project-thumb-2">
+                            <div class="project-badge">Web Design & UI</div>
+                            <div class="project-overlay-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3>SaaS Analytics Dashboard</h3>
+                            <p>Intuitive user interface for data metrics, charts, and team collaboration with accessible color palettes and micro-interactions.</p>
+                            <div class="project-tags">
+                                <span>Web Design</span>
+                                <span>UI/UX</span>
+                                <span>CSS Flexbox</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="link-btn"><i class="fa-solid fa-eye"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-thumb project-thumb-3">
+                            <div class="project-badge">Illustration & Graphics</div>
+                            <div class="project-overlay-icon"><i class="fa-solid fa-bezier-curve"></i></div>
+                        </div>
+                        <div class="project-body">
+                            <h3>Creative Brand & Illustration Kit</h3>
+                            <p>Comprehensive branding system including custom vector art, custom icons, and visual graphics for an indie tech startup.</p>
+                            <div class="project-tags">
+                                <span>Illustration</span>
+                                <span>Graphics</span>
+                                <span>Vector Art</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="link-btn"><i class="fa-solid fa-eye"></i> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect & Collaborate</h2>
+                    <p class="section-subtitle">Have a project in mind, an opportunity to discuss, or just want to say hi? Reach out anytime!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Information Cards -->
+                    <div class="contact-info-column">
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Email Address</h4>
+                                <a href="mailto:rezoaniqbalrohan@gmail.com" class="contact-link">rezoaniqbalrohan@gmail.com</a>
+                                <button class="copy-btn" data-copy="rezoaniqbalrohan@gmail.com" title="Copy Email">
+                                    <i class="fa-regular fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Phone / WhatsApp</h4>
+                                <a href="tel:+8801316357404" class="contact-link">+880 1316-357404</a>
+                                <button class="copy-btn" data-copy="+8801316357404" title="Copy Phone Number">
+                                    <i class="fa-regular fa-copy"></i> Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Location</h4>
+                                <p class="contact-link static">Homna 3546, Cumilla, Bangladesh</p>
+                                <span class="contact-note">Available for remote & on-site engagements</span>
+                            </div>
+                        </div>
+
+                        <div class="social-box">
+                            <h4>Connect Online</h4>
+                            <div class="social-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="mailto:rezoaniqbalrohan@gmail.com" class="social-btn" aria-label="Direct Email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="https://wa.me/8801316357404" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-column">
+                        <div class="form-wrapper">
+                            <h3 class="form-title">Send a Message</h3>
+                            <form id="contact-form" novalidate>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Your Name <span class="req">*</span></label>
+                                        <div class="input-with-icon">
+                                            <i class="fa-regular fa-user"></i>
+                                            <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+                                        </div>
+                                        <span class="error-msg" id="name-error"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Your Email <span class="req">*</span></label>
+                                        <div class="input-with-icon">
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                        </div>
+                                        <span class="error-msg" id="email-error"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">Subject <span class="req">*</span></label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                        <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Job Opportunity" required>
+                                    </div>
+                                    <span class="error-msg" id="subject-error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Your Message <span class="req">*</span></label>
+                                    <div class="input-with-icon textarea-icon">
+                                        <i class="fa-regular fa-comment-dots"></i>
+                                        <textarea id="message" name="message" rows="5" placeholder="Hi Rezoan, I'd like to discuss a project..." required></textarea>
+                                    </div>
+                                    <span class="error-msg" id="message-error"></span>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                                    <span>Send Message</span>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </form>
+                            <div class="form-status" id="form-status"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-badge">RI</span>
+                <div>
+                    <h4>Rezoan Iqbal</h4>
+                    <p>Senior Web Developer • Homna, Cumilla, Bangladesh</p>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-copy">
+                <p>&copy; 2026 Rezoan Iqbal. Built with HTML, CSS & JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification for actions -->
+    <div class="toast-notification" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span class="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
